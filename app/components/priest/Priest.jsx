@@ -5,9 +5,9 @@ function Priest() {
   return (
     <div className="px-5 py-10">
       <div>
-        <div className="text-center pb-6">
+        <div className="text-center py-14">
           <p>SERVING OUR SAVIOR</p>
-          <h3>Meet Our Pastors</h3>
+          <h3>Meet Our Fathers</h3>
         </div>
         <div className="grid grid-cols-fluid gap-3">
           {[1, 2, 3].map((i) => (

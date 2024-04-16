@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="px-5 bg-[#222222] text-white">
       <div>
-        <h1 className="text-center text-3xl font-semibold py-10">
+        <h1 className="text-center text-3xl font-semibold pb-12 md:pt-24 pt-12">
           ST MATIA MULUMBA PARISH
         </h1>
         <div className="flex justify-between flex-wrap">
