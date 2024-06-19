@@ -14,7 +14,7 @@ function TopBanner() {
         <h1 className="font-semibold text-2xl">ST MATIA MULUMBA PARISH</h1>
       </div>
       <div>
-        <button className="p-3 bg-[#DCB074]">GIVE!</button>
+        <button className="p-2 bg-[#DCB074] rounded-xl text-sm">GIVE!</button>
       </div>
     </div>
   );

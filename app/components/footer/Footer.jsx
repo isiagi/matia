@@ -2,12 +2,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="px-5 bg-[#222222] text-white">
+    <div className="px-5 bg-[#222222] text-white mt-11">
       <div>
-        <h1 className="text-center text-3xl font-semibold pb-12 md:pt-24 pt-12">
+        <h1 className="text-center text-3xl font-semibold py-10 ">
           ST MATIA MULUMBA PARISH
         </h1>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-between text-sm flex-wrap">
           <div className="leading-loose">
             <h1 className="font-semibold">Pages</h1>
             <ul className="leading-loose">
@@ -40,7 +40,9 @@ function Footer() {
         </div>
 
         <div>
-          <p className="text-center py-10">&copy; 2024 - All Rights Reserved</p>
+          <p className="text-center py-10 text-sm">
+            &copy; 2024 - All Rights Reserved
+          </p>
         </div>
       </div>
     </div>

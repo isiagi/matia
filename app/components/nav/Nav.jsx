@@ -1,6 +1,7 @@
 "use client";
 
 import useOffset from "@/app/hooks/useOffset";
+import Link from "next/link";
 import React from "react";
 
 function Nav() {
@@ -13,12 +14,16 @@ function Nav() {
         offSet > 30 ? "top-0" : ""
       } flex justify-center items-center bg-[#25597B] min-h-[9vh] text-white`}
     >
-      <ul className="flex items-center gap-5 flex-wrap">
+      <ul className=" text-sm flex items-center gap-5 flex-wrap">
         <li>Home</li>
         <li>About</li>
         <li>Get Involved</li>
-        <li>UpComing Events</li>
-        <li>Services</li>
+        <Link href={"/events"}>
+          <li>UpComing Events</li>
+        </Link>
+        <Link href={"/services"}>
+          <li>Services</li>
+        </Link>
         <li>News</li>
       </ul>
     </div>
