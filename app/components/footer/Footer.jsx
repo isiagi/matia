@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="px-5 bg-[#222222] text-white mt-11">
+    <div className="px-5 bg-[#222222] text-white ">
       <div>
         <h1 className="text-center text-3xl font-semibold py-10 ">
           ST MATIA MULUMBA PARISH

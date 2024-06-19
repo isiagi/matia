@@ -28,8 +28,8 @@ function Priest() {
               </div>
               <div>
                 <h4 className="py-2">Craig Groeschel</h4>
-                <p className="py-2">FAther</p>
-                <p className="leading-relaxed">
+                <p className="font-semibold">FAther</p>
+                <p className="leading-relaxed text-sm">
                   Following a vision God gave him and his wife Amy for a
                   different kind of church, he and a handful of people launched.
                 </p>
