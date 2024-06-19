@@ -15,9 +15,13 @@ function Nav() {
       } flex justify-center items-center bg-[#25597B] min-h-[9vh] text-white`}
     >
       <ul className=" text-sm flex items-center gap-5 flex-wrap">
-        <li>Home</li>
-        <li>About</li>
-        <li>Get Involved</li>
+        <Link href={"/"}>
+          <li>Home</li>
+        </Link>
+        <Link href={"/about"}>
+          <li>About</li>
+        </Link>
+
         <Link href={"/events"}>
           <li>UpComing Events</li>
         </Link>
@@ -26,6 +30,9 @@ function Nav() {
         </Link>
         <Link href={"/sermon"}>
           <li>Sermons</li>
+        </Link>
+        <Link href={"contact"}>
+          <li>Get Involved</li>
         </Link>
       </ul>
     </div>
