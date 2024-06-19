@@ -5,6 +5,8 @@ import TopBanner from "./components/topBanner/TopBanner";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 
+import "../styles/globals.scss";
+
 const inter = Roboto_Serif({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {

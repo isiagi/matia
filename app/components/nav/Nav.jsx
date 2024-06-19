@@ -24,7 +24,9 @@ function Nav() {
         <Link href={"/services"}>
           <li>Services</li>
         </Link>
-        <li>News</li>
+        <Link href={"/sermon"}>
+          <li>Sermons</li>
+        </Link>
       </ul>
     </div>
   );
