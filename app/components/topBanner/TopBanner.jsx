@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -14,7 +15,9 @@ function TopBanner() {
         <h1 className="font-semibold text-2xl">ST MATIA MULUMBA PARISH</h1>
       </div>
       <div>
-        <button className="p-2 bg-[#DCB074] rounded-xl text-sm">GIVE!</button>
+        <Link href={"/give"}>
+          <button className="p-2 bg-[#DCB074] rounded-xl text-sm">GIVE!</button>
+        </Link>
       </div>
     </div>
   );
