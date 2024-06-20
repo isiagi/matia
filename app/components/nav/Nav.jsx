@@ -16,7 +16,7 @@ function Nav() {
         offSet > 30 ? "fixed" : "relative"
       } z-10 w-full transition ease-in-out ${
         offSet > 30 ? "top-0" : ""
-      } flex md:justify-center items-center bg-[#25597B] min-h-[9vh] text-white`}
+      } flex md:justify-center items-center z-[100] bg-[#25597B] min-h-[9vh] text-white`}
     >
       <div className="md:hidden px-5 flex items-center justify-between w-full">
         {isOpen ? (
@@ -55,7 +55,7 @@ function Nav() {
       </ul>
       {/* mobile view */}
       <ul
-        className={`md:hidden block absolute top-[calc(100%+0vh)] bg-[#0B1B2B] opacity-95 w-full leading-loose py-3 px-6 duration-500 ease-in-out ${
+        className={`md:hidden block absolute top-[calc(100%+0vh)] z-[100] bg-[#0B1B2B] opacity-95 w-full leading-loose py-3 px-6 duration-500 ease-in-out ${
           isOpen ? "left-0" : "left-[-100%]"
         }`}
       >
