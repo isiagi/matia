@@ -4,6 +4,7 @@ import React from "react";
 import HeaderBanner from "../components/headerBanner/HeaderBanner";
 import Image from "next/image";
 import { closePaymentModal, useFlutterwave } from "flutterwave-react-v3";
+import InnerHeader from "../components/innerHeader/InnerHeader";
 
 function Page() {
   const config = {
@@ -29,6 +30,7 @@ function Page() {
   return (
     <div>
       <HeaderBanner title={"Give"} />
+      <InnerHeader title={"DONATIONS"} />
       <div className="py-14 mx-5">
         <div className="grid grid-cols-fluid gap-5">
           {[

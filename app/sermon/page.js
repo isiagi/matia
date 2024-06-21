@@ -7,6 +7,7 @@ import { AiFillAudio } from "react-icons/ai";
 import Image from "next/image";
 import ModalVideo from "react-modal-video";
 import ReactAudioPlayer from "react-audio-player";
+import InnerHeader from "../components/innerHeader/InnerHeader";
 
 function Page() {
   const [isOpen, setOpen] = useState(false);
@@ -14,7 +15,7 @@ function Page() {
   return (
     <div className="relative">
       <HeaderBanner title={"Sermons"} />
-
+      <InnerHeader title={"SERMONS"} />
       <div className="px-5">
         <div className="grid grid-cols-fluid gap-3 py-10">
           {[1, 2, 3, 4, 5, 6].map((_, i) => (
